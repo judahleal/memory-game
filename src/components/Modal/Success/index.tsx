@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
+import { Button } from "src/components/Button";
 import { useAppContext } from "src/context";
-import { Button } from "../../Button";
 import { Container } from "./styles";
 
 export const ModalSuccess: React.FunctionComponent = () => {

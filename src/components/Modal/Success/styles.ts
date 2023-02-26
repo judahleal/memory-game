@@ -10,6 +10,16 @@ export const Container = styled.div`
     position: fixed;
     top: 0;
     z-index: 1;
+    animation: showModal 1s;
+
+    @keyframes showModal {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
     h4 {
         font-size: 36px;

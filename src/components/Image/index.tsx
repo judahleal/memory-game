@@ -1,11 +1,11 @@
-import LogoAtleticoMineiro from "../../assets/teamsLogo/atletico-mineiro.svg";
-import LogoBahia from "../../assets/teamsLogo/bahia.svg";
-import LogoCorinthians from "../../assets/teamsLogo/corinthians.svg";
-import LogoGremio from "../../assets/teamsLogo/gremio.svg";
-import LogoInternacional from "../../assets/teamsLogo/internacional.svg";
-import LogoPalmeiras from "../../assets/teamsLogo/palmeiras.svg";
-import LogoSantos from "../../assets/teamsLogo/santos.svg";
-import LogoSaoPaulo from "../../assets/teamsLogo/sao-paulo.svg";
+import LogoAtleticoMineiro from "src/assets/teamsLogo/atletico-mineiro.svg";
+import LogoBahia from "src/assets/teamsLogo/bahia.svg";
+import LogoCorinthians from "src/assets/teamsLogo/corinthians.svg";
+import LogoGremio from "src/assets/teamsLogo/gremio.svg";
+import LogoInternacional from "src/assets/teamsLogo/internacional.svg";
+import LogoPalmeiras from "src/assets/teamsLogo/palmeiras.svg";
+import LogoSantos from "src/assets/teamsLogo/santos.svg";
+import LogoSaoPaulo from "src/assets/teamsLogo/sao-paulo.svg";
 
 type ITeamsLogoProps = {
   number?: string;

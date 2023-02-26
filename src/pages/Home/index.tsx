@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import { Button } from "../../components/Button";
+import { Button } from "src/components/Button";
 import { Container } from "./styles";
 
 export const Home: React.FunctionComponent = () => {

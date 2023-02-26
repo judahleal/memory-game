@@ -1,6 +1,6 @@
-import { Button } from "../../components/Button";
 import { useHistory } from "react-router-dom";
-import { useAppContext } from "../../context";
+import { Button } from "src/components/Button";
+import { useAppContext } from "src/context";
 import { Container } from "./styles";
 
 export const Player: React.FunctionComponent = () => {

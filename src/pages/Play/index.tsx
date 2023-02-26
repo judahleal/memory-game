@@ -1,7 +1,7 @@
 import { useLayoutEffect } from "react";
 import { useHistory } from "react-router-dom";
-import { GameContainer } from "../../components/GameContainer";
-import { useAppContext } from "../../context";
+import { GameContainer } from "src/components/GameContainer";
+import { useAppContext } from "src/context";
 import { Container } from "./styles";
 
 export const Play: React.FunctionComponent = () => {
