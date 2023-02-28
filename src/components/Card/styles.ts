@@ -10,17 +10,20 @@ export const CardContainer = styled.button<ICardProps>`
     height: 80px;
     width: 65px;
     padding: 5px;
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
+    border: none;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: transparent;
+    background: #3effa1;
     transition: all 0.5s;
     
     ${props => props.isSelected && 'animation: showCard 0.5s;'}
     ${props => !props.isSelected && 'animation: hideCard 0.5s;'}
+
+    ${props => props.isSelected && 'background: #FFF;'}
 
     @keyframes showCard {
         0% {
@@ -39,10 +42,6 @@ export const CardContainer = styled.button<ICardProps>`
             transform: rotateY(0deg);
         }
     }
-    
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 
     &:not(:disabled):hover {
         transform: scale(1.1);
@@ -51,7 +50,7 @@ export const CardContainer = styled.button<ICardProps>`
 
     &:disabled {
         filter: contrast(80%);
-        background: #C3C3C3;
+        background: #ffffa1;
     }
 
     img {

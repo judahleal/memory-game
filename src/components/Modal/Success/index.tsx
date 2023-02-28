@@ -2,6 +2,7 @@ import { useHistory } from "react-router-dom";
 import { Button } from "src/components/Button";
 import { useAppContext } from "src/context";
 import { Container } from "./styles";
+import logo from "src/assets/images/logo.png";
 
 export const ModalSuccess: React.FunctionComponent = () => {
   const history = useHistory();
@@ -9,10 +10,11 @@ export const ModalSuccess: React.FunctionComponent = () => {
 
   return (
     <Container>
-      <div>
+      <div className="content">
         <h4>Parabéns, {context?.username}!</h4>
+        <img src={logo} alt="logo" />
         <div className="buttonContainer">
-          <Button type="cancel" onClick={() => history.push("/")} text="Ir para início" />
+          <Button type="default" onClick={() => history.push("/")} text="Ir para início" />
         </div>
       </div>
     </Container>

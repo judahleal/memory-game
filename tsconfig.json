@@ -29,6 +29,7 @@
   "include": [
     "src",
     "src/global.d.ts",
+    "src/fonts.d.ts",
     "src/react-app-env.d.ts"
   ]
 }

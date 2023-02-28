@@ -9,33 +9,34 @@ type IButtonProps = {
 export const Container = styled.button<IButtonProps>`
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    transition: all 0.1s;
-    box-shadow: 2px 3px 0 #000;
+    padding: 15px;
+    transition: all 0.2s;
     flex: 1;
     max-width: 140px;
+    font-size: 18px;
+    box-shadow: 5px 5px 0 #ae8033;
+    font-weight: bold;
 
     &:active {
         box-shadow: none;
     }
 
     &:hover {
-        filter: contrast(80%);
+        filter: brightness(110%);
     }
     
     ${props => props.className === 'default' && `
-        background: #C3C3C3;
-        color: #212121;
+        background: #ffd005;
+        color: #121E26;
     `}
 
     ${props => props.className === 'cancel' && `
-        background: #c3c3c3;
-        border: solid 2px #444;
-        color: #212121;
+        background: #F29D35;
+        color: #121E26;
     `}
 
     ${props => props.className === 'confirm' && `
-        background: #444;
-        color: #FFF;
+        background: #F2C53D;
+        color: #121E26;
     `}
 `;

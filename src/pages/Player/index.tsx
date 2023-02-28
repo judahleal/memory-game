@@ -20,7 +20,7 @@ export const Player: React.FunctionComponent = () => {
         <input placeholder="Digite seu nome" type="text" value={context?.username} onChange={(event) => context?.setUsername(event.target.value)} />
         <div className="buttonContainer">
           <Button type="cancel" onClick={() => history.push("/")} text="Voltar" />
-          <Button type="confirm" onClick={canPlay} text="Avançar" />
+          <Button type="default" onClick={canPlay} text="Avançar" />
         </div>
       </div>
     </Container>
