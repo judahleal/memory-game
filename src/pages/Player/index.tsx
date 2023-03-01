@@ -8,7 +8,7 @@ export const Player: React.FunctionComponent = () => {
   const history = useHistory();
 
   const canPlay = (): void => {
-    if (!context?.username) {
+    if (!context?.username.trim()) {
       return;
     }
     history.push("/play");
