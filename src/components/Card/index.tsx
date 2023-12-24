@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, PropsWithChildren } from "react";
 import { Image } from "../Image";
 import { CardContainer } from "./styles";
 
@@ -14,11 +14,10 @@ type IHandleClickProps = {
 };
 
 type ICardsProps = {
-  children: React.ReactNode;
   handleClick: ({ card, clear }: IHandleClickProps) => boolean;
 };
 
-export const Card: React.FunctionComponent<ICardsProps> = ({ children, handleClick }) => {
+export const Card: React.FunctionComponent<PropsWithChildren<ICardsProps>> = ({ children, handleClick }) => {
   const [isSelected, setIsSelected] = useState(false);
   const cardRef = useRef<HTMLButtonElement>(null);
 
