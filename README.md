@@ -1,10 +1,45 @@
-# Getting Started with Create React App
+# Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple memory game to explain to coworkers how React works and some of its concepts.
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+I made this project to show in a mini workshop at the company how React works, what is a component, how share info between components, how to manipulate them, React hooks etc.
+
+## Technologies
+
+Technologies used in this project:
+
+* React
+* TypeScript
+* Styled Components
+
+## Example
+
+#### 1. Initial page
+<img src="https://user-images.githubusercontent.com/47536564/222217084-6eebbca3-2938-414c-bacc-9509a65cb94e.png" width="700" />
+
+#### 2. Player
+<img src="https://user-images.githubusercontent.com/47536564/222217729-0a30f2fb-68f4-4e59-9c95-8c8d5972b461.png" width="700" />
+
+#### 3. Game
+
+<img src="https://user-images.githubusercontent.com/47536564/222217929-36812f38-0eb8-43d7-a208-0b525868db29.png" width="700" />
+<img src="https://user-images.githubusercontent.com/47536564/222217956-73b9f7de-3974-41f3-9d14-21fdaa608a39.png" width="700" />
+<img src="https://user-images.githubusercontent.com/47536564/222217999-b7d340e1-df17-4997-aa8d-f65081ffa480.png" width="700" />
+<img src="https://user-images.githubusercontent.com/47536564/222218173-5a4da139-6a43-4d0f-ae61-ba9efab7739b.png" width="700" />
+
+#### 4. Video
+
+https://user-images.githubusercontent.com/47536564/222218786-3212f89b-5e02-4be7-9e8f-4604e9381fdc.mp4
+
+I'm not a good player as you can see 😅!
+
+## Run the app
+
+### `npm install`
+
+Installs all dependences from the app.
 
 ### `npm start`
 
